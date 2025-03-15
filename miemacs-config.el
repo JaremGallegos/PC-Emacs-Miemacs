@@ -32,178 +32,22 @@
 ;; Floor, Boston, MA 02110-1301, USA.
 ;; This file is not part of GNU Emacs
 
-;;; Commentary:
+;;; Paquetes
+(defconst emacs-start-time (current-time))
+(load (concat (file-name-directory load-file-name) "core/core-load-paths")
+      nil (not init-file-debug))
+(load (concat miemacs-core-directory "core-versions")
+      nil (not init-file-debug))
+(load (concat miemacs-core-directory "core-dumpers")
+      nil (not init-file-debug))
+(load (concat miemacs-core-directory "core-config")
+      nil (not init-file-debug))
+(load (concat miemacs-core-directory "core-groups")
+      nil (not init-file-debug))
+(load (concat miemacs-core-directory "core-faces")
+      nil (not init-file-debug))
 
-;;; Code:
-
-;; » Verificacion de version de emacs
-(when (version< emacs-version "28.1")
-  (error "Se requiere de una version de Emacs 28.1 o mayor!"))
-
-;; » Configurar codificacion de caracteres UTF-8
-(set-keyboard-coding-system 'utf-8)
-
-;; » Desplegar linea de enumeracion de codigo
-(global-display-line-numbers-mode 1)
-
-;; » Aplazar la recoleccion de basura más adelante en el proceso de inicio
-(setq-default gc-cons-threshold most-positive-fixnum)
-
-;; » Evitar el parpadeo de la linea de modelo sin estilo al inicio
-(setq-default mode-line-format nil)
-
-;; » No pasar el caso insensitivo a "auto-mode-alist"
-(setq auto-mode-case-fold nil)
-
-;; » Fondo y tamaño
-(setq default-frame-alist
-      (append (list '(width  . 72) '(height . 40)
-		    '(vertical-scroll-bars . nil)
-		    '(internal-border-width . 24)
-		    '(font . "Roboto Mono Light 14"))))
-(set-frame-parameter (selected-frame)
-		     'internal-border-width 24)
-
-;; » Espaciado, puede ser 0 para el codigo, 1 y 2 para el texto
-(setq-default line-spacing 0)
-(setq x-underline-at-descent-line t)
-(setq widget-image-enable nil)
-
-;; » Cursor de linea y no parpadeo
-(set-default 'cursor-type  '(bar . 1))
-(blink-cursor-mode 0)
-
-;; » Deshabilitar el Sonido de Error
-(setq visible-bell t)
-(setq ring-bell-function 'ignore)
-
-;; » Deshabilitar la Informacion sobre las herramientas
-(tooltip-mode 0)
-
-;; » El modo padre es parte del tema
-(show-paren-mode t)
-
-;; » Cuando se configura un face, se elimina cualquier configuracion
-;; anterior
-(defun set-face (face style)
-  "Restablecer una CARA y hacer que herede ESTILO"
-  (set-face-attribute face nil
-		      :foreground 'unspecified :background 'unspecified
-		      :family     'unspecified :slant      'unspecified
-		      :weight     'unspecified :height     'unspecified
-		      :underline  'unspecified :overline   'unspecified
-		      :box        'unspecified :inherit    style))
-
-;; » Un tema esta completamente definido por estas seis caras.
-(defgroup elegance nil
-  "Faces para el tema elegante"
-  :prefix "elegance-face-"
-  :group 'faces)
-
-;; » Definicion de Costum Faces
-(defface face-critical nil
-  "El face critico se utiliza para informacion que requiere accion
-  inmediata. Debe tener un alto contraste en comparacion con otros
-  faces. Esto se puede lograr, por ejemplo, configurando un color de
-  fondo intenso, generalmente un tono rojo. Debe usarse con poca
-  frecuencia"
-  :group 'elegance)
-
-(defface face-popout nil
-  "La face resaltante se utiliza para informacion que requiere atencion.
-  Para lograr este efecto, el tono de la face debe ser suficientemente
-  diferente al de las otras caras para atraer la atencion mediante el efecto
-  resaltado"
-  :group 'elegance)
-
-(defface face-strong nil
-  "El tipo de la letra se utiliza para informacion estructural. Debe ser
-  del mismo color que el predeterminado y solo el grosor difiere en un nivel
-  (p. ej.,claro/normal o normal/negrita). Generalmente se utiliza para
-  titulos, palabras clave, directorios, etc."
-  :group 'elegance)
-
-(defface face-salient nil
-  "La face destacada se utiliza para informacion importante. Para sugerir
-  que la informacion es de la misma naturaleza, pero importante, la face
-  utiliza un tono diferente con aproximadamente la misma intensidad que el
-  rostro predeterminado. Esto se suele usar para enlaces"
-  :group 'elegance)
-
-(defface face-faded nil
-  "El tipo de letra difuminado se utiliza para informacion menos
-  importante. Se crea con el mismo tono que el predeterminado, pero con
-  menor intensidad. Se puede usar para comentarios, informacion secundaria
-  y tambien para reemplazar la cursiva (que, de todos modos, suele usarse
-  de forma abusiva)"
-  :group 'elegance)
-
-(defface face-subtle nil
-  "El uso de la face sutil sugiere un area fisica en la pantalla. Es
-  importante no perturbar demasiado la lectura de la informacion, lo que
-  se puede lograr con un color de fondo muy claro, apenas perceptible"
-  :group 'elegance)
-
-;; » Representacion de lineas de modo
-;; Esta linea hace que los bits sean mas rapidos
-(set-fontset-font "fontset-default"  '(#x2600 . #x26ff) "Fira Code 16")
-(define-key mode-line-major-mode-keymap [header-line]
-	    (lookup-key mode-line-major-mode-keymap [mode-line]))
-
-(defun mode-line-render (left right)
-  "Funcion para renderizar la linea del modelo de IZQUIERDA a DERECHA"
-  (concat left
-	  (propertize " " 'display `(space :align-to (- right ,(length right))))
-	  right))
-
-(setq-default mode-line-format
-	      '((:eval
-		 (mode-line-render
-		  (format-mode-line (list
-				     (propertize "☰" 'face `(:inherit mode-line-buffer-id)
-						 'help-echo "Mode(s) menu"
-						 'mouse-face 'mode-line-highlight
-						 'local-map  mode-line-major-mode-keymap)
-				     " %b "
-				     (if (and buffer-file-name (buffer-modified-p))
-					 (propertize "(modified)" 'face `(:inherit face-faded)))))
-		  (format-mode-line
-		   (propertize "%4l:%2c" 'face `(:inherit face-faded)))))))
-
-;; » Establecer la linea de modelo en la parte superior
-(setq-default header-line-format mode-line-format)
-(setq-default mode-line-format'(""))
-
-;; » Divisor vertical de Windows
-(setq window-divider-default-right-width 3)
-(setq window-divider-default-places 'right-only)
-(window-divider-mode)
-
-;; » Modelo
-(defun set-modeline-faces ()
-  "Linea de Modo Superior"
-  (set-face-attribute 'custom-button nil
-		      :foreground (face-foreground 'face-faded)
-		      :background (face-background 'face-subtle)
-		      :box `(:line-width 1
-					 :color ,(face-foreground 'face-faded)
-					 :style nil))
-  (set-face-attribute 'custom-button-mouse nil
-		      :foreground (face-foreground 'default)
-		      ;;; :background (face-foreground 'face-faded)
-		      :inherit 'custom-button
-		      :box `(:line-width 1
-					 :color ,(face-foreground 'face-subtle)
-					 :style nil))
-  (set-face-attribute 'custon-button-pressed nil
-		      :foreground (face-foreground 'default)
-		      :background (face-foreground 'face-salient)
-		      :inherit 'face-salient
-		      :box `(:line-width 1
-					 :color ,(face-foreground 'face-salient)
-					 :style nil)
-		      :inverse-video nil))
-'(cus-edit (set-button-faces))
+;; »»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
 
 ;; » Estructura
 (set-face 'bold                           'face-strong)
@@ -315,23 +159,6 @@
 '(package-status-new                      'default)
 '(package-status-unsigned                 'default)
 
-;; » Boton Funcion (harcoded)
-(defun package-make-button (text &rest properties)
-  "Inserter boton etiquetado como TEXTO con PROPIEDADES en el
-  punto. Las PROPIEDADES se pasan a 'insert-text-button', para lo cual
-  esta funcion es un contenedor de conveniencia utilizado por
-  'describe-package-1'"
-  (let ((button-text (if (display-graphic-p)
-			 text (concat "[" text "]")))
-	(button-face (if (display-graphic-p)
-			 '(:box `(:line-width 1
-					      :color "#999999":style nil)
-				:foreground "#999999"
-				:background "#F0F0F0")
-		       'link)))
-    (apply #'insert-text-button button-text
-	   'face button-face 'follow-link t properties)))
-
 ;; » Flyspell
 '(flyspell-duplicate                      'face-popout)
 '(flyspell-incorrect                      'face-popout)
@@ -352,26 +179,6 @@
 '(diff-refine-changed                     'face-popout)
 '(diff-refine-removed                     'face-faded)
 '(set-face-attribute 'diff-refine-removed nil :strike-through t)
-
-;; » Terminos
-'(term-bold                               'face-strong)
-'(set-face-attribute 'term-color-black nil
-		     :foreground (face-foreground 'default)
-		     :background (face-foreground 'default))
-'(set-face-attribute 'term-color-white nil
-		     :foreground "white"   :background "white")
-'(set-face-attribute 'term-color-blue nil
-		     :foreground "#42A5F5" :background "#BBDEF8")
-'(set-face-attribute 'term-color-cyan nil
-		     :foreground "#26C6DA" :background "#B2EBF2")
-'(set-face-attribute 'term-color-green nil
-		     :foreground "#66BB6A" :background "#C8E6C9")
-'(set-face-attribute 'term-color-magenta nil
-		     :foreground "#AB47BC" :background "#E1BEE7")
-'(set-face-attribute 'term-color-red nil
-		     :foreground "#EF5350" :background "#FFCDD2")
-'(set-face-attribute 'term-color-yellow nil
-		     :foreground "#FFEE58" :background "#FFF9C4")
 
 ;; » Org Agendas
 '(org-agenda-calendar-event               'default)
@@ -490,7 +297,9 @@
 '(mu4e-view-body-face                     'default)
 '(mu4e-warning-face                       'face-faded)
 
-;; » Autoload
+;; »»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+
+;;; Autoloader
 (when load-file-name
   (add-to-list 'custom-theme-load-path
 	       (file-name-as-directory (file-name-directory load-file-name))))
