@@ -54,10 +54,7 @@
   <br>
 
 #### Scott Fuston Portfolio
-old package.json react versioning code
-// "react": "^16.13.1",
-// "react-dom": "^16.13.1",
-// "react-scripts": "^3.4.4",
+aa
 
 ### About
 > This site is built using React, Javascript/TypeScript, and Node-sass.
