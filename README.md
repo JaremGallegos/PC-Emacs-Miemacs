@@ -51,9 +51,8 @@
   </a>
 
 
-  <br>
+<br>
 
-#### Scott Fuston Portfolio
 aa
 
 ### About
