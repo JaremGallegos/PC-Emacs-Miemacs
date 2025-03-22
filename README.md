@@ -1,7 +1,7 @@
 
 <p align="center">
   <!-- logo -->
-  <img src="https://github.com/edoardottt/READMENATOR/blob/master/images/logo.png">
+  <img src="../miemacs.png">
   <b>Final README.md sample for all kind of projects</b><br>
   <sub>
     Coded with 💙 by edoardottt.
