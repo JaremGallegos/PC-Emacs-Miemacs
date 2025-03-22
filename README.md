@@ -1,7 +1,7 @@
 
 <p align="center">
   <!-- logo -->
-  <img src="../miemacs.png">
+  <img src="/assets/miemacs.png">
   <b>Final README.md sample for all kind of projects</b><br>
   <sub>
     Coded with 💙 by edoardottt.
