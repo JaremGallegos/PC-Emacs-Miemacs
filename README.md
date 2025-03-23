@@ -29,11 +29,10 @@
 </div>
 <br>
 
-aa
+This site is built using React, Javascript/TypeScript, and Node-sass.
+I hae a terrible eye for design, so I borrowed the theme from an HTML5Up template. I did build the site completely from scratch on my own, as the original was not built using React.
+<br>
 
-> This site is built using React, Javascript/TypeScript, and Node-sass.
-I have a terrible eye for design, so I borrowed the theme from an HTML5Up template. I did build the site completely from scratch on my own, as the original was not built using React.
-> 
 ### Links
 - [Tiny PNG](https://tinypng.com/)
 - [React-Scroll](https://www.npmjs.com/package/react-scroll)
