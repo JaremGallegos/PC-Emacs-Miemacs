@@ -1,5 +1,5 @@
 
-<a href=""><img align="center" src="/assets/miemacs.png"></a>
+<a href="https://github.com/JaremGallegos/miemacs.git"><img align="center" src="/assets/miemacs.png"></a>
 
 <!-- badges -->
 <div align="right">
