@@ -2,7 +2,7 @@
 <a href="https://github.com/JaremGallegos/miemacs.git"><img align="center" src="/assets/miemacs.png"></a>
 
 <!-- badges -->
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div>
   <div aleign="left">
     <p>
       <a href="https://lisp-lang.org/learn/"><img alt="Common Lisp" src="https://img.shields.io/badge/-Common%20Lisp-%23414549?style=flat-square&logo=commonlisp"></a>
