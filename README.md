@@ -5,7 +5,7 @@
 <div align="right">
   <!-- Redes Sociales -->
   <p>
-    <a href="https://josephgallegos.my"><img alt="Portafolio de Proyectos" src="https://img.shields.io/badge/-About Me!-41454A?style=flat-square&logo=Awwwards&logoColor=41454A&labelColor=FFFFFF&link=https%3A%2F%2Fmistral.mi"></a>
+    <a href="https://josephgallegos.my"><img alt="Common Lisp" src="https://img.shields.io/badge/-Common%20Lisp-%23414549?style=flat-square&logo=commonlisp"></a>
     <a href="https://www.linkedin.com/in/jaremgallegos/"><img alt="Linkedin" src="https://img.shields.io/badge/-%40jaremgallegos-FFFFFF?style=flat-square&logo=LogMeIn&logoColor=FFFFFF&labelColor=0073B2&link=www.linkedin.com%2Fin%2Fjaremgallegos"></a>
     <a href="https://www.youtube.com/@JaremJ.Gallegos"><img alt="Youtube" src="https://img.shields.io/badge/-%40JaremJ.Gallegos-FF0000?style=flat-square&logo=Youtube&logoColor=FF0000&labelColor=FFFFFF&link=https%3A%2F%2Fwww.youtube.com%2F%40JaremJ.Gallegos"></a>
     <a href="https://twitter.com/Jarem_Gallegos"><img alt="Twitter" src="https://img.shields.io/badge/-%40Jarem_Gallegos-%23000000?style=flat-square&logo=X&logoColor=%23000000&labelColor=FFFFFF&link=https%3A%2F%2Ftwitter.com%2FJarem_Gallegos"></a> 
