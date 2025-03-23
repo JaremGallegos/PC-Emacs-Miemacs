@@ -3,12 +3,12 @@
 
 <!-- badges -->
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <div align="left">
+  <div style="text-align: left;">
     <p>
       <a href="https://lisp-lang.org/learn/"><img alt="Common Lisp" src="https://img.shields.io/badge/-Common%20Lisp-%23414549?style=flat-square&logo=commonlisp"></a>
     </p>
   </div>
-  <div align="right">
+  <div style="text-align: right;">
     <!-- Redes Sociales -->
     <p>
       <a href="https://lisp-lang.org/learn/"><img alt="Common Lisp" src="https://img.shields.io/badge/-Common%20Lisp-%23414549?style=flat-square&logo=commonlisp"></a>
