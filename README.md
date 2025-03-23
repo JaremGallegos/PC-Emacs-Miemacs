@@ -12,6 +12,8 @@
     <a href=""><img alt="GNU" src="https://img.shields.io/badge/-GNU-%23414549?style=flat-square&logo=gnu&logoColor=%23ffffff"></a>
     <a href=""><img alt="UML" src="https://img.shields.io/badge/-UML-%23414549?style=flat-square&logo=uml&logoColor=%23ffffff"></a>
     <a href=""><img alt="XML" src="https://img.shields.io/badge/-XML-%23414549?style=flat-square&logo=xml&logoColor=%23ffffff"></a>
+    <a href=""><img alt="Typst" src="https://img.shields.io/badge/-Typst-%23414549?style=flat-square&logo=typst&logoColor=%23ffffff"></a>
+    <a href=""><img alt="Static Badge" src="https://img.shields.io/badge/-TOML-%23414549?style=flat-square&logo=toml&logoColor=%23ffffff"></a>
   </p>
 </div>
 <br>
