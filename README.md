@@ -16,6 +16,7 @@
     <a href=""><img alt="Static Badge" src="https://img.shields.io/badge/-TOML-%23414549?style=flat-square&logo=toml&logoColor=%23ffffff"></a>
     <a href=""><img alt="Static Badge" src="https://img.shields.io/badge/-Git-%23414549?style=flat-square&logo=git&logoColor=%23ffffff"></a>
     <a href=""><img alt="Static Badge" src="https://img.shields.io/badge/-GitLab-%23414549?style=flat-square&logo=gitlab&logoColor=%23ffffff"></a>
+    <a href=""><img alt="Static Badge" src="https://img.shields.io/badge/-GitHub%20Pages-%23414549?style=flat-square&logo=githubpages&logoColor=%23ffffff"></a>
   </p>
 </div>
 <br>
