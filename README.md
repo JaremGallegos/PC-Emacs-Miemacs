@@ -3,9 +3,9 @@
 
 <!-- badges -->
 <div>
-  <div align="right">
+  <div>
     <!-- Recursos y Lenguajes de Programación -->
-    <p>
+    <p align="right"> 
       <a href="https://lisp-lang.org/learn/"><img alt="Common Lisp" src="https://img.shields.io/badge/-Common%20Lisp-%23414549?style=flat-square&logo=commonlisp"></a>
       <a href="https://www.gnu.org/software/emacs/manual/html_node/elisp/index.html"><img alt="Emacs Lisp" src="https://img.shields.io/badge/-Emacs%20Lisp-%23414549?style=flat-square&logo=commonlisp"></a>
       <a href="https://typst.app/docs/"><img alt="Typst" src="https://img.shields.io/badge/-Typst-%23414549?style=flat-square&logo=typst&logoColor=%23ffffff"></a>
