@@ -1,12 +1,5 @@
 
-<p align="center">
-  <!-- logo -->
-  <img src="/assets/miemacs.png">
-  <b>Final README.md sample for all kind of projects</b><br>
-  <sub>
-    Coded with 💙 by edoardottt.
-  </sub>
-</p>
+<a href=""><img align="center" src="/assets/miemacs.png"></a>
 <!-- badges -->
 <p align="center">
   <!-- mainteinance -->
