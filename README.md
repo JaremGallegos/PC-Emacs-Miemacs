@@ -3,12 +3,6 @@
 
 <!-- badges -->
 <div>
-  <div align="left">
-    <!-- Proyectos Relacionados -->
-    <p>
-      <a href="https://lisp-lang.org/learn/"><img alt="Common Lisp" src="https://img.shields.io/badge/-Common%20Lisp-%23414549?style=flat-square&logo=commonlisp"></a>
-    </p>
-  </div>
   <div align="right">
     <!-- Recursos y Lenguajes de Programación -->
     <p>
