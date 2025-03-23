@@ -9,12 +9,12 @@
     <a href=""><img alt="Emacs Lisp" src="https://img.shields.io/badge/-Emacs%20Lisp-%23414549?style=flat-square&logo=commonlisp"></a>
     <a href=""><img alt="PowerShell Terminal" src="https://img.shields.io/badge/-PowerShell%20Terminal-%23414549?style=flat-square&logo=gnometerminal"></a>
     <a href=""><img alt="Typst" src="https://img.shields.io/badge/-Typst-%23414549?style=flat-square&logo=typst&logoColor=%23ffffff"></a>
-    <a href="https://twitter.com/Jarem_Gallegos"><img alt="GNU Emacs" src="https://img.shields.io/badge/-GNU%20Emacs-%23414549?style=flat-square&logo=gnuemacs&logoColor=%23ffffff"></a>
-    <a href=""><img alt="GNU" src="https://img.shields.io/badge/-GNU-%23414549?style=flat-square&logo=gnu&logoColor=%23ffffff"></a><br>
-    <a href=""><img alt="UML" src="https://img.shields.io/badge/-UML-%23414549?style=flat-square&logo=uml&logoColor=%23ffffff"></a>
     <a href=""><img alt="XML" src="https://img.shields.io/badge/-XML-%23414549?style=flat-square&logo=xml&logoColor=%23ffffff"></a>
-    <a href=""><img alt="TOML" src="https://img.shields.io/badge/-TOML-%23414549?style=flat-square&logo=toml&logoColor=%23ffffff"></a>
     <a href=""><img alt="Git" src="https://img.shields.io/badge/-Git-%23414549?style=flat-square&logo=git&logoColor=%23ffffff"></a>
+    <a href=""><img alt="GNU" src="https://img.shields.io/badge/-GNU-%23414549?style=flat-square&logo=gnu&logoColor=%23ffffff"></a><br>
+    <a href=""><img alt="GNU Emacs" src="https://img.shields.io/badge/-GNU%20Emacs-%23414549?style=flat-square&logo=gnuemacs&logoColor=%23ffffff"></a>
+    <a href=""><img alt="UML" src="https://img.shields.io/badge/-UML-%23414549?style=flat-square&logo=uml&logoColor=%23ffffff"></a>
+    <a href=""><img alt="TOML" src="https://img.shields.io/badge/-TOML-%23414549?style=flat-square&logo=toml&logoColor=%23ffffff"></a>
     <a href=""><img alt="GitLab" src="https://img.shields.io/badge/-GitLab-%23414549?style=flat-square&logo=gitlab&logoColor=%23ffffff"></a>
     <a href=""><img alt="GitHub Pages" src="https://img.shields.io/badge/-GitHub%20Pages-%23414549?style=flat-square&logo=githubpages&logoColor=%23ffffff"></a>
     <a href=""><img alt="Figma" src="https://img.shields.io/badge/-Figma-%23414549?style=flat-square&logo=figma&logoColor=%23ffffff"></a>
