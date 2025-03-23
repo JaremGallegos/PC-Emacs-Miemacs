@@ -10,6 +10,7 @@
     <a href="https://www.youtube.com/@JaremJ.Gallegos"><img alt="PowerShell Terminal" src="https://img.shields.io/badge/-PowerShell%20Terminal-%23414549?style=flat-square&logo=gnometerminal"></a>
     <a href="https://twitter.com/Jarem_Gallegos"><img alt="GNU Emacs" src="https://img.shields.io/badge/-GNU%20Emacs-%23414549?style=flat-square&logo=gnuemacs&logoColor=%23ffffff"></a>
     <a href=""><img alt="GNU" src="https://img.shields.io/badge/-GNU-%23414549?style=flat-square&logo=gnu&logoColor=%23ffffff"></a>
+    <a href=""><img alt="Static Badge" src="https://img.shields.io/badge/-UML-%23414549?style=flat-square&logo=uml&logoColor=%23ffffff"></a>
   </p>
 </div>
 <br>
