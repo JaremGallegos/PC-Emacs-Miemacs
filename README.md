@@ -22,11 +22,6 @@
 </div>
 <br>
 
-<a href="https://lisp-lang.org/learn/"><img alt="Common Lisp" src="https://img.shields.io/badge/-Common%20Lisp-%23414549?style=flat-square&logo=commonlisp"></a>
-<a href="https://www.gnu.org/software/emacs/manual/html_node/elisp/index.html"><img alt="Emacs Lisp" src="https://img.shields.io/badge/-Emacs%20Lisp-%23414549?style=flat-square&logo=commonlisp"></a>
-<a href="https://typst.app/docs/"><img alt="Typst" src="https://img.shields.io/badge/-Typst-%23414549?style=flat-square&logo=typst&logoColor=%23ffffff"></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/XML"><img alt="XML" src="https://img.shields.io/badge/-XML-%23414549?style=flat-square&logo=xml&logoColor=%23ffffff"></a>
-<a href="https://toml.io/en/v1.0.0"><img alt="TOML" src="https://img.shields.io/badge/-TOML-%23414549?style=flat-square&logo=toml&logoColor=%23ffffff"></a>    
 This site is built using React, Javascript/TypeScript, and Node-sass. I hae a terrible eye for design, so I borrowed the theme from an HTML5Up template. I did build the site completely from scratch on my own, as the original was not built using React.
 <br>
 
