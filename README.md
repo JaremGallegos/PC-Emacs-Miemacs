@@ -3,7 +3,7 @@
 
 <!-- badges -->
 <div>
-    <!-- Recursos y Lenguajes de Programación -->
+    <!-- Recursos y Lenguajes de Programación  https://simpleicons.org/ -->
   <p align="right"> 
     <a href="https://lisp-lang.org/learn/"><img alt="Common Lisp" src="https://img.shields.io/badge/-Common%20Lisp-%23414549?style=flat-square&logo=commonlisp"></a>
     <a href="https://www.gnu.org/software/emacs/manual/html_node/elisp/index.html"><img alt="Emacs Lisp" src="https://img.shields.io/badge/-Emacs%20Lisp-%23414549?style=flat-square&logo=commonlisp"></a>
@@ -22,6 +22,7 @@
 </div>
 <br>
 
+<!-- Descripcion -->
 This site is built using React, Javascript/TypeScript, and Node-sass. I hae a terrible eye for design, so I borrowed the theme from an HTML5Up template. I did build the site completely from scratch on my own, as the original was not built using React.
 <br>
 
@@ -45,3 +46,5 @@ I decided to rank my skills by 2 categories: 'Top Skills' and 'Other Skills'. To
 ### Testing
 > Unit testing with React-Testing-Library/Jest. Still adding test coverage in the future, this site is nowhere near fully tested.
 
+### Proyectos Relacionados
+>
