@@ -2,14 +2,15 @@
 <a href="https://github.com/JaremGallegos/miemacs.git"><img align="center" src="/assets/miemacs.png"></a>
 
 <!-- badges -->
-<div>
+<div style="display: flex; justify-content: space-between;">
   <div align="left">
+    <!-- Proyectos Relacionados -->
     <p>
       <a href="https://lisp-lang.org/learn/"><img alt="Common Lisp" src="https://img.shields.io/badge/-Common%20Lisp-%23414549?style=flat-square&logo=commonlisp"></a>
     </p>
   </div>
   <div align="right">
-    <!-- Redes Sociales -->
+    <!-- Recursos y Lenguajes de Programación -->
     <p>
       <a href="https://lisp-lang.org/learn/"><img alt="Common Lisp" src="https://img.shields.io/badge/-Common%20Lisp-%23414549?style=flat-square&logo=commonlisp"></a>
       <a href="https://www.gnu.org/software/emacs/manual/html_node/elisp/index.html"><img alt="Emacs Lisp" src="https://img.shields.io/badge/-Emacs%20Lisp-%23414549?style=flat-square&logo=commonlisp"></a>
