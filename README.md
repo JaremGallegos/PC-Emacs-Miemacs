@@ -1,49 +1,16 @@
 
 <a href=""><img align="center" src="/assets/miemacs.png"></a>
+
 <!-- badges -->
-<p align="center">
-  <!-- mainteinance -->
-      <a href="https://edoardoottavianelli.it">
-        <img src="https://github.com/edoardottt/READMENATOR/blob/master/images/maintained-yes.svg" alt="Mainteinance yes" />
-      </a>
-      <a href="https://edoardoottavianelli.it">
-        <img src="https://github.com/edoardottt/READMENATOR/blob/master/images/maintained-no.svg" alt="Mainteinance no" />
-      </a>
-    <!-- open-issues -->
-      <a href="https://edoardoottavianelli.it">
-        <img src="https://github.com/edoardottt/READMENATOR/blob/master/images/issues-0-open.svg" alt="open issues" />
-      </a>
-  
-  <!-- pr-welcome -->
-  <a href="https://edoardoottavianelli.it">
-    <img src="https://github.com/edoardottt/READMENATOR/blob/master/images/pr-welcome.svg" alt="pr-welcome" />
-  </a>
-  <!-- ask-me-anything -->
-  <a href="https://edoardoottavianelli.it">
-    <img src="https://github.com/edoardottt/READMENATOR/blob/master/images/ask-me-anything.svg" alt="ask me anything" />
-  </a>
-
-
-  <br>
-
-  <!-- license GPLv3.0 -->
-  <a href="https://github.com/edoardottt/READMENATOR/blob/master/LICENSE">
-    <img src="https://github.com/edoardottt/READMENATOR/blob/master/images/license-GPL3.svg" alt="license-GPL3" />
-  </a>
-  <!-- license GPL -->
-  <a href="https://github.com/edoardottt/READMENATOR/blob/master/LICENSE">
-    <img src="https://github.com/edoardottt/READMENATOR/blob/master/images/license-GPL.svg" alt="license-GPL" />
-  </a>
-    <!-- license CC0 -->
-  <a href="https://github.com/edoardottt/READMENATOR/blob/master/LICENSE">
-    <img src="https://github.com/edoardottt/READMENATOR/blob/master/images/license-CC0.svg" alt="license-CC0" />
-  </a>
-    <!-- license MIT -->
-  <a href="https://github.com/edoardottt/READMENATOR/blob/master/LICENSE">
-    <img src="https://github.com/edoardottt/READMENATOR/blob/master/images/license-MIT.svg" alt="license-MIT" />
-  </a>
-
-
+<div align="right">
+  <!-- Redes Sociales -->
+  <p>
+    <a href="https://josephgallegos.my"><img alt="Portafolio de Proyectos" src="https://img.shields.io/badge/-About Me!-41454A?style=flat-square&logo=Awwwards&logoColor=41454A&labelColor=FFFFFF&link=https%3A%2F%2Fmistral.mi"></a>
+    <a href="https://www.linkedin.com/in/jaremgallegos/"><img alt="Linkedin" src="https://img.shields.io/badge/-%40jaremgallegos-FFFFFF?style=flat-square&logo=LogMeIn&logoColor=FFFFFF&labelColor=0073B2&link=www.linkedin.com%2Fin%2Fjaremgallegos"></a>
+    <a href="https://www.youtube.com/@JaremJ.Gallegos"><img alt="Youtube" src="https://img.shields.io/badge/-%40JaremJ.Gallegos-FF0000?style=flat-square&logo=Youtube&logoColor=FF0000&labelColor=FFFFFF&link=https%3A%2F%2Fwww.youtube.com%2F%40JaremJ.Gallegos"></a>
+    <a href="https://twitter.com/Jarem_Gallegos"><img alt="Twitter" src="https://img.shields.io/badge/-%40Jarem_Gallegos-%23000000?style=flat-square&logo=X&logoColor=%23000000&labelColor=FFFFFF&link=https%3A%2F%2Ftwitter.com%2FJarem_Gallegos"></a> 
+  </p>
+</div>
 <br>
 
 aa
