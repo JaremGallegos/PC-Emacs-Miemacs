@@ -2,7 +2,7 @@
 <a href="https://github.com/JaremGallegos/miemacs.git"><img align="center" src="/assets/miemacs.png"></a>
 
 <!-- badges -->
-<div style="display: flex">
+<div>
   <div align="left">
     <!-- Proyectos Relacionados -->
     <p>
