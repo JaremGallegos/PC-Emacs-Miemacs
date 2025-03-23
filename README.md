@@ -7,7 +7,7 @@
   <p>
     <a href=""><img alt="Common Lisp" src="https://img.shields.io/badge/-Common%20Lisp-%23414549?style=flat-square&logo=commonlisp"></a>
     <a href=""><img alt="Emacs Lisp" src="https://img.shields.io/badge/-Emacs%20Lisp-%23414549?style=flat-square&logo=commonlisp"></a>
-    <a href=""><img alt="PowerShell Terminal" src="https://img.shields.io/badge/-PowerShell%20Terminal-%23414549?style=flat-square&logo=gnometerminal"></a>
+    <a href=""><img alt="PowerShell" src="https://img.shields.io/badge/-PowerShell-%23414549?style=flat-square&logo=gnometerminal"></a>
     <a href=""><img alt="Typst" src="https://img.shields.io/badge/-Typst-%23414549?style=flat-square&logo=typst&logoColor=%23ffffff"></a>
     <a href=""><img alt="XML" src="https://img.shields.io/badge/-XML-%23414549?style=flat-square&logo=xml&logoColor=%23ffffff"></a>
     <a href=""><img alt="Git" src="https://img.shields.io/badge/-Git-%23414549?style=flat-square&logo=git&logoColor=%23ffffff"></a>
