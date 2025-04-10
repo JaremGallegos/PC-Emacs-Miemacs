@@ -1,4 +1,4 @@
-<img align="center" src="https://www.vecteezy.com/vector-art/701690-abstract-polygonal-banner-background" />
+<img align="center" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F000%2F664%2F483%2Foriginal%2Fabstract-blue-banner-design-vector.jpg&f=1&nofb=1&ipt=546805338d44356ef172cf4e1a3b242679ca98b5d242f027ba46c8c8dfb69de2" />
 <a href="https://github.com/JaremGallegos/miemacs.git"><img align="center" src="/assets/miemacs.png"></a>
 
 <!-- badges -->
