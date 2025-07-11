@@ -1,4 +1,4 @@
-<a href="https://github.com/JaremGallegos/miemacs.git"><img align="center" src="/assets/miemacs.png"></a>
+<a href="https://github.com/JaremGallegos/miemacs.git"><img align="center" src="/assets/PC-EMACS-MIEMACS.png"></a>
 
 <!-- badges -->
 <div>
